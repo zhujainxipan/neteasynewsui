@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+            android:id="@+id/toouxiang"
+            android:icon="@drawable/ic_launcher"
+            android:showAsAction="always"
+            android:title="用户头像"
+            ></item>
+
+    <item
+            android:id="@+id/weather"
+            android:icon="@drawable/ic_launcher"
+            android:showAsAction="never"
+            android:title="天气"
+            ></item>
+    <item
+            android:id="@+id/lixian"
+            android:icon="@drawable/ic_launcher"
+            android:showAsAction="never"
+            android:title="离线"
+            ></item>
+    <item
+            android:id="@+id/yejian"
+            android:icon="@drawable/ic_launcher"
+            android:showAsAction="never"
+            android:title="夜间"
+            ></item>
+    <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_launcher"
+            android:showAsAction="never"
+            android:title="搜索"
+            ></item>
+    <item
+            android:id="@+id/sao"
+            android:icon="@drawable/ic_launcher"
+            android:showAsAction="never"
+            android:title="扫一扫"
+            ></item>
+    <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_launcher"
+            android:showAsAction="never"
+            android:title="设置"
+            ></item>
+
+
+
+</menu>

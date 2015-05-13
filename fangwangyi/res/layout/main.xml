@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+<HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+    <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            >
+        <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="头条"
+                android:button="@null"
+                android:textColor="@color/color_text_select"
+                android:background="@drawable/radiobutton_select"
+                android:gravity="center"
+                />
+        <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="娱乐"
+                android:textColor="@color/color_text_select"
+                android:background="@drawable/radiobutton_select"
+                android:button="@null"
+                android:gravity="center"
+
+
+                />
+        <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="热点"
+                android:textColor="@color/color_text_select"
+                android:background="@drawable/radiobutton_select"
+                android:button="@null"
+                android:gravity="center"
+
+
+                />
+
+        <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="体育"
+                android:textColor="@color/color_text_select"
+                android:background="@drawable/radiobutton_select"
+                android:button="@null"
+
+                android:gravity="center"
+
+                />
+        <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="北京"
+                android:textColor="@color/color_text_select"
+                android:background="@drawable/radiobutton_select"
+                android:button="@null"
+                android:gravity="center"
+
+
+                />
+        <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="财经"
+                android:button="@null"
+                android:textColor="@color/color_text_select"
+                android:background="@drawable/radiobutton_select"
+                android:gravity="center"
+
+                />
+        <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="科技"
+                android:textColor="@color/color_text_select"
+                android:background="@drawable/radiobutton_select"
+                android:button="@null"
+                android:gravity="center"
+
+
+                />
+
+    </RadioGroup>
+
+
+
+</HorizontalScrollView>
+</LinearLayout>
+
